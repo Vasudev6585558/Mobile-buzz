@@ -57,64 +57,60 @@
   <html>
 
 <!-- Slideshow container -->
+<!DOCTYPE html>
 
-<div class="slideshow-container">
+<html lang="en">
 
-  <!-- Full-width images with number and caption text -->
+<head>
 
-  <div class="mySlides fade">
+    <meta charset="UTF-8">
 
-    <div class="numbertext">1 / 3</div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <img src="mobile/slogan1" style="width:100%">
+    <title>Slider</title>
 
-    <div class="text">Caption Text</div>
+    <link rel="stylesheet" href="./style.css">
 
-  </div>
+</head>
 
-  <div class="mySlides fade">
+<body>
 
-    <div class="numbertext">2 / 3</div>
+    <div class="slider">
 
-    <img src="mobile/slogan2.png" style="width:100%">
+        <div class="images">
 
-    <div class="text">Caption Two</div>
+            <input type="radio" name="slide" id="img1" checked>
 
-  </div>
+            <input type="radio" name="slide" id="img2">
 
-  <div class="mySlides fade">
+            <input type="radio" name="slide" id="img3">
 
-    <div class="numbertext">3 / 3</div>
+            <input type="radio" name="slide" id="img4">
 
-    <img src="mobile/slogan3.png" style="width:100%">
+            <img src="./1.jpg" class="m1" alt="img1">
 
-    <div class="text">Caption Three</div>
+            <img src="./2.jpg" class="m2" alt="img2">
 
-  </div>
+            <img src="./3.jpg" class="m3" alt="img3">
 
-  <!-- Next and previous buttons -->
+            <img src="./4.jpg" class="m4" alt="img4">
 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        </div>
 
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dots">
 
-</div>
+            <label for="img1"></label>
 
-<br>
+            <label for="img2"></label>
 
-<!-- The dots/circles -->
+            <label for="img3"></label>
 
-<div style="text-align:center">
+            <label for="img4"></label>
 
-  <span class="dot" onclick="currentSlide(1)"></span>
+        </div>
 
-  <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
 
-  <span class="dot" onclick="currentSlide(3)"></span>
+</body>
 
-  </div>
-
-  </html>
-
-  </div>
-
+</html>
